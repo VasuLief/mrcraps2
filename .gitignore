@@ -1,38 +1,20 @@
-.settings
-
-# built application files
-*.apk
-*.ap_
-
-# files for the dex VM
-*.dex
-
-# Java class files
 *.class
 
-# generated files
+# Package Files #
+*.dex
+*.war
+*.ear
+*.apk
 bin/
+bin
 gen/
-
-# Local configuration file (sdk path, etc)
-local.properties
-
-# Eclipse project files
-.classpath
-.project
+release/
+release
+gen
 .metadata/
 .metadata
-
-# IntelliJ project files
 .idea/
 .idea
-*.iws
-*.ipr
-*.iml
-
-# other
 *.project
 .DS_Store
-*.odg#
-proguard
-libs/
+target/
