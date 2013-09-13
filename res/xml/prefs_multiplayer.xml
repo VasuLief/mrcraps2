@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:summary="Allgemeine Einstellungen"
+        android:title="Allgemeine Einstellungen" >
+
+        <ListPreference
+            android:defaultValue="8x8"
+            android:dialogTitle="Wähle eine Größe aus"
+            android:entries="@array/mapsizeSpinner"
+            android:entryValues="@array/mapsizeSpinner"
+            android:key="mp_mapsize"
+            android:summary="Spielfeldgröße..."
+            android:title="Größe der Karte" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:summary="Items, die im Spiel auftauchen"
+        android:title="Items, die im Spiel auftauchen" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="mp_item_Banane"
+            android:summary="Ein/Aus"
+            android:title="Banane" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="mp_item_Kleber"
+            android:summary="Ein/Aus"
+            android:title="Kleber" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="mp_item_Crap"
+            android:summary="Ein/Aus"
+            android:title="Crap-Haufen" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

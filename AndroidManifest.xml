@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="de.thm.mrcraps"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_app"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="de.thm.mrcraps.views.SplashActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/FullscreenTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="de.thm.mrcraps.views.MainMenuActivity"
+            android:label="@string/title_activity_main_menu" >
+        </activity>
+        <activity
+            android:name="de.thm.mrcraps.views.SettingsActivity"
+            android:label="@string/title_activity_settings" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="de.thm.mrcraps.activitys.MainMenuActivity" />
+        </activity>
+        <activity
+            android:name="de.thm.mrcraps.views.SingleplayerActivity"
+            android:label="@string/title_activity_main_menu"
+            android:screenOrientation="landscape"
+            android:theme="@style/FullscreenTheme" >
+        </activity>
+        <activity
+            android:name="de.thm.mrcraps.views.MultiplayerActivity"
+            android:label="@string/title_activity_main_menu"
+            android:screenOrientation="landscape"
+            android:theme="@style/FullscreenTheme" >
+        </activity>
+        <activity
+            android:name="de.thm.mrcraps.views.SearchServices"
+            android:label="@string/title_activity_SearchService"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="de.thm.mrcraps.views.HighscoreActivity"
+            android:label="@string/title_activity_highscore" >
+        </activity>
+    </application>
+
+</manifest>

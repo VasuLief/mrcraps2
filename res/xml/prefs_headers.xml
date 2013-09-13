@@ -1,0 +1,14 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <header
+        android:fragment="de.thm.mrcraps.views.SettingsActivity$SingleplayerFragment"
+        android:icon="@drawable/ic_app"
+        android:summary="Einstellungen für den Singleplayer."
+        android:title="Singleplayer" />
+    <header
+        android:fragment="de.thm.mrcraps.views.SettingsActivity$MultiplayerFragment"
+        android:icon="@drawable/ic_app"
+        android:summary="Einstellungen für den Multiplayer."
+        android:title="Multiplayer" />
+
+</preference-headers>
