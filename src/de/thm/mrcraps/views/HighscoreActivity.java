@@ -24,6 +24,7 @@ public class HighscoreActivity extends Activity {
 	protected void onResume() {
 		super.onResume();
 		updateList();
+		//test
 	}
 
 	@Override
