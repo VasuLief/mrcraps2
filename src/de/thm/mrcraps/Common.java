@@ -27,5 +27,9 @@ public interface Common {
 	public final static int GAME_MULTIPLAYER = 2;
 	public final static int GAME_HOST = 1;
 	public final static int GAME_CLIENT = 2;
+	
+	public final static int WUFF = 2;
 
 }
+
+// Test 
