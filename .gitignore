@@ -18,3 +18,19 @@ local.properties
 # Eclipse project files
 .classpath
 .project
+.metadata/
+.metadata
+
+# IntelliJ project files
+.idea/
+.idea
+*.iws
+*.ipr
+*.iml
+
+# other
+*.project
+.DS_Store
+*.odg#
+proguard
+libs/
